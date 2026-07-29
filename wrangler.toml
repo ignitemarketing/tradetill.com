@@ -1,0 +1,7 @@
+name = "tradetill"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-06-01"
+
+# Secret (set per Pages project at deploy, do NOT commit):
+#   wrangler pages secret put POSTMARK_SERVER_TOKEN --project-name=tradetill
+# Signup notifications are emailed via Postmark to colin+newco@colingreig.com.

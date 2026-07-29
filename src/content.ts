@@ -1,0 +1,37 @@
+export const content = {
+  brand: 'TradeTill',
+  domain: 'tradetill.com',
+  serviceType: 'Online presence platform for trade businesses',
+  title: 'TradeTill — Your Trade Business, Fully Online',
+  description: 'One platform to get found, get booked, and get paid — a professional website and local SEO wired to Jobber, ServiceTitan, or Housecall Pro. Join early access.',
+  navCta: 'Get early access',
+  badge: 'Early access · for trades & field service',
+  h1a: 'Your whole trade business, ', h1grad: 'online and working', h1b: ' for you.',
+  sub: 'A professional website, local SEO, and online booking — all in one place, wired to the field-service software you already run. Get found, get booked, get paid.',
+  trust: 'No website rebuild. Connects to your existing tools.',
+  mock: ['search', 'calendar', 'card'],
+  mockStat: 'Online presence',
+  featHead: {
+    eyebrow: 'One platform',
+    title: 'Three jobs. One platform.',
+    sub: 'Most trades run a patchwork of tools that never talk to each other. TradeTill ties your online presence to the work you already do.',
+  },
+  features: [
+    { icon: 'search', title: 'Get found', body: 'A fast, professional website tuned for local search — so when customers Google your trade in your area, you show up first.' },
+    { icon: 'calendar', title: 'Get booked', body: 'Online booking pulls real availability straight from your field-service software. No double-entry, no missed jobs.' },
+    { icon: 'card', title: 'Get paid', body: 'Invoices, follow-ups, and reviews trigger from the job status in your system — so payment and reputation run themselves.' },
+  ],
+  intsHead: {
+    title: 'Wired to your jobs and customers',
+    sub: 'TradeTill reads and writes to your field-service software, so your site, booking, and reviews always reflect the real state of your business.',
+  },
+  ints: [
+    { brand: 'Jobber', body: 'Pulls customers, jobs, and availability to keep your site and booking accurate in real time.' },
+    { brand: 'ServiceTitan', body: 'Ties your online presence to dispatch and job status, with reviews fired from completed work.' },
+    { brand: 'Housecall Pro', body: 'Syncs your service catalog and customer data so the website mirrors your operation.' },
+  ],
+  ctaTitle: 'Be first on TradeTill.',
+  ctaSub: 'We\'re building TradeTill with a small group of trade businesses. Join early access and help shape what we build first.',
+  ctaList: ['No pricing commitment', 'Priority onboarding when we open', 'Tell us which software you run'],
+  footerTag: 'The online presence platform for trade businesses.',
+};

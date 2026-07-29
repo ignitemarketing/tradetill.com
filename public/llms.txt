@@ -1,0 +1,21 @@
+# TradeTill
+
+TradeTill is an online presence platform for trade and field-service businesses.
+
+## What it does
+
+Provides a professional website, local SEO, and online booking — wired directly to the field service management (FSM) software the business already runs.
+
+## Who it is for
+
+Trades and field-service business owners: plumbers, electricians, HVAC technicians, roofers, and similar contractors who want their online presence connected to their job management workflow.
+
+## FSM integrations
+
+Works with Jobber, ServiceTitan, and Housecall Pro. Integration ties customer data, job status, and booking flow to the website layer.
+
+## Status
+
+Early access / waitlist. Not yet generally available.
+
+URL: https://tradetill.com
