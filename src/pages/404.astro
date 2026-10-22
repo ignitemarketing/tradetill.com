@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { content as c } from '../content';
+---
+<Base path="/404" title={`Page not found — ${c.brand}`} noindex>
+  <header class="hdr">
+    <div class="wrap hdr-inner">
+      <a class="brand" href="/">{c.brand}</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <h1>Page not found</h1>
+          <p class="hero-sub">That page doesn't exist or has moved. Head back to the home page, or join the early access list.</p>
+          <div class="hero-actions">
+            <a class="btn btn-ghost" href="/">Back to home</a>
+            <a class="btn btn-primary" href="/#waitlist">{c.navCta}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>
