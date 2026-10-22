@@ -1,6 +1,8 @@
 allowBuilds:
   esbuild: true
   sharp: true
+  # wrangler's workerd runtime downloads/sets up its platform binary in postinstall
+  workerd: true
 
 # GHSA-68fv-2mgg-jv7q: source-map-js <1.2.2 is pulled in transitively via
 # astro -> svgo -> csso -> css-tree and astro -> magicast at 1.2.1.
