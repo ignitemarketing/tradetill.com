@@ -1,3 +1,8 @@
 allowBuilds:
   esbuild: true
   sharp: true
+
+# GHSA-68fv-2mgg-jv7q: source-map-js <1.2.2 is pulled in transitively via
+# astro -> svgo -> csso -> css-tree and astro -> magicast at 1.2.1.
+overrides:
+  source-map-js@<1.2.2: ^1.2.2
