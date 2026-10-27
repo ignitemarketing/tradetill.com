@@ -1,9 +1,15 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tradetill",
+  "main": "src/worker.ts",
   "compatibility_date": "2026-07-01",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  // No id: wrangler deploy creates the namespace on first deploy and reuses it after.
+  "kv_namespaces": [{ "binding": "WAITLIST" }],
+  "ratelimits": [{ "name": "WAITLIST_LIMITER", "namespace_id": "8406", "simple": { "limit": 5, "period": 60 } }]
 }
