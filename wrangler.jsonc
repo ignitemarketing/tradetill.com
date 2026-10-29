@@ -1,16 +1,11 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tradetill",
-  "main": "src/worker.ts",
   "compatibility_date": "2026-07-01",
   "workers_dev": false,
   "preview_urls": false,
   "assets": {
     "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*"]
-  },
-  "kv_namespaces": [{ "binding": "WAITLIST", "id": "511b79c8ec684fa589e5bbd1e876ed76" }],
-  "ratelimits": [{ "name": "WAITLIST_LIMITER", "namespace_id": "8406", "simple": { "limit": 5, "period": 60 } }]
+    "not_found_handling": "404-page"
+  }
 }
